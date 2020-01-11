@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616338A5C47ADE5F5D4C5400 /* Pods_MarsPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CB0432C445576EDE00526C /* Pods_MarsPlay.framework */; };
+		9314576023C97A1F0078C5F7 /* DeatilsViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314575F23C97A1F0078C5F7 /* DeatilsViewVC.swift */; };
+		9314576223C97FD10078C5F7 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314576123C97FD10078C5F7 /* DataBase.swift */; };
+		9341CC7723C87C21000588BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC7623C87C21000588BA /* AppDelegate.swift */; };
+		9341CC7923C87C21000588BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC7823C87C21000588BA /* SceneDelegate.swift */; };
+		9341CC7B23C87C21000588BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC7A23C87C21000588BA /* ViewController.swift */; };
+		9341CC7E23C87C21000588BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9341CC7C23C87C21000588BA /* Main.storyboard */; };
+		9341CC8123C87C21000588BA /* MarsPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC7F23C87C21000588BA /* MarsPlay.xcdatamodeld */; };
+		9341CC8323C87C25000588BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9341CC8223C87C25000588BA /* Assets.xcassets */; };
+		9341CC8623C87C25000588BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9341CC8423C87C25000588BA /* LaunchScreen.storyboard */; };
+		9341CC8E23C87CE9000588BA /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC8D23C87CE9000588BA /* DashboardVC.swift */; };
+		9341CC9023C88467000588BA /* DashboardVCCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC8F23C88467000588BA /* DashboardVCCollectionCell.swift */; };
+		9341CC9223C885E1000588BA /* CollectionViewCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC9123C885E1000588BA /* CollectionViewCellExt.swift */; };
+		9341CC9A23C886C9000588BA /* WSRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC9423C886C9000588BA /* WSRequestManager.swift */; };
+		9341CC9B23C886C9000588BA /* WebAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC9523C886C9000588BA /* WebAPIManager.swift */; };
+		9341CC9C23C886C9000588BA /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC9723C886C9000588BA /* ContentModel.swift */; };
+		9341CC9D23C886C9000588BA /* WSContentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC9923C886C9000588BA /* WSContentList.swift */; };
+		9341CC9F23C889E5000588BA /* AuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341CC9E23C889E5000588BA /* AuthInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CB0432C445576EDE00526C /* Pods_MarsPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271213176F307556503C73F3 /* Pods-MarsPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPlay.release.xcconfig"; path = "Target Support Files/Pods-MarsPlay/Pods-MarsPlay.release.xcconfig"; sourceTree = "<group>"; };
+		832A863B1449A69A8D7DE6ED /* Pods-MarsPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPlay.debug.xcconfig"; path = "Target Support Files/Pods-MarsPlay/Pods-MarsPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		9314575F23C97A1F0078C5F7 /* DeatilsViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatilsViewVC.swift; sourceTree = "<group>"; };
+		9314576123C97FD10078C5F7 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		9341CC7323C87C21000588BA /* MarsPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9341CC7623C87C21000588BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9341CC7823C87C21000588BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9341CC7A23C87C21000588BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9341CC7D23C87C21000588BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9341CC8023C87C21000588BA /* MarsPlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarsPlay.xcdatamodel; sourceTree = "<group>"; };
+		9341CC8223C87C25000588BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9341CC8523C87C25000588BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9341CC8723C87C25000588BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9341CC8D23C87CE9000588BA /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		9341CC8F23C88467000588BA /* DashboardVCCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVCCollectionCell.swift; sourceTree = "<group>"; };
+		9341CC9123C885E1000588BA /* CollectionViewCellExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellExt.swift; sourceTree = "<group>"; };
+		9341CC9423C886C9000588BA /* WSRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSRequestManager.swift; sourceTree = "<group>"; };
+		9341CC9523C886C9000588BA /* WebAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIManager.swift; sourceTree = "<group>"; };
+		9341CC9723C886C9000588BA /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		9341CC9923C886C9000588BA /* WSContentList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSContentList.swift; sourceTree = "<group>"; };
+		9341CC9E23C889E5000588BA /* AuthInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9341CC7023C87C21000588BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616338A5C47ADE5F5D4C5400 /* Pods_MarsPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9341CC6A23C87C21000588BA = {
+			isa = PBXGroup;
+			children = (
+				9341CC7523C87C21000588BA /* MarsPlay */,
+				9341CC7423C87C21000588BA /* Products */,
+				E9BC9270CF1B6E2F393787C7 /* Pods */,
+				E71E8CDA39BF9089C67F4F1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9341CC7423C87C21000588BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9341CC7323C87C21000588BA /* MarsPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9341CC7523C87C21000588BA /* MarsPlay */ = {
+			isa = PBXGroup;
+			children = (
+				9341CC7623C87C21000588BA /* AppDelegate.swift */,
+				9341CC7823C87C21000588BA /* SceneDelegate.swift */,
+				9341CC9E23C889E5000588BA /* AuthInfo.swift */,
+				9341CC8D23C87CE9000588BA /* DashboardVC.swift */,
+				9341CC8F23C88467000588BA /* DashboardVCCollectionCell.swift */,
+				9314575F23C97A1F0078C5F7 /* DeatilsViewVC.swift */,
+				9314576123C97FD10078C5F7 /* DataBase.swift */,
+				9341CC9323C886C9000588BA /* Webservices */,
+				9341CC7A23C87C21000588BA /* ViewController.swift */,
+				9341CC9123C885E1000588BA /* CollectionViewCellExt.swift */,
+				9341CC7C23C87C21000588BA /* Main.storyboard */,
+				9341CC8223C87C25000588BA /* Assets.xcassets */,
+				9341CC8423C87C25000588BA /* LaunchScreen.storyboard */,
+				9341CC8723C87C25000588BA /* Info.plist */,
+				9341CC7F23C87C21000588BA /* MarsPlay.xcdatamodeld */,
+			);
+			path = MarsPlay;
+			sourceTree = "<group>";
+		};
+		9341CC9323C886C9000588BA /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				9341CC9423C886C9000588BA /* WSRequestManager.swift */,
+				9341CC9523C886C9000588BA /* WebAPIManager.swift */,
+				9341CC9623C886C9000588BA /* models */,
+				9341CC9823C886C9000588BA /* WSRequest */,
+			);
+			path = Webservices;
+			sourceTree = "<group>";
+		};
+		9341CC9623C886C9000588BA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9341CC9723C886C9000588BA /* ContentModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		9341CC9823C886C9000588BA /* WSRequest */ = {
+			isa = PBXGroup;
+			children = (
+				9341CC9923C886C9000588BA /* WSContentList.swift */,
+			);
+			path = WSRequest;
+			sourceTree = "<group>";
+		};
+		E71E8CDA39BF9089C67F4F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CB0432C445576EDE00526C /* Pods_MarsPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9BC9270CF1B6E2F393787C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				832A863B1449A69A8D7DE6ED /* Pods-MarsPlay.debug.xcconfig */,
+				271213176F307556503C73F3 /* Pods-MarsPlay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9341CC7223C87C21000588BA /* MarsPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9341CC8A23C87C25000588BA /* Build configuration list for PBXNativeTarget "MarsPlay" */;
+			buildPhases = (
+				21A8712C189C80468A41A351 /* [CP] Check Pods Manifest.lock */,
+				9341CC6F23C87C21000588BA /* Sources */,
+				9341CC7023C87C21000588BA /* Frameworks */,
+				9341CC7123C87C21000588BA /* Resources */,
+				3B503B8F43FE71B7734404A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsPlay;
+			productName = MarsPlay;
+			productReference = 9341CC7323C87C21000588BA /* MarsPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9341CC6B23C87C21000588BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "ashok Mahawar";
+				TargetAttributes = {
+					9341CC7223C87C21000588BA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 9341CC6E23C87C21000588BA /* Build configuration list for PBXProject "MarsPlay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9341CC6A23C87C21000588BA;
+			productRefGroup = 9341CC7423C87C21000588BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9341CC7223C87C21000588BA /* MarsPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9341CC7123C87C21000588BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341CC8623C87C25000588BA /* LaunchScreen.storyboard in Resources */,
+				9341CC8323C87C25000588BA /* Assets.xcassets in Resources */,
+				9341CC7E23C87C21000588BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A8712C189C80468A41A351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B503B8F43FE71B7734404A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarsPlay/Pods-MarsPlay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarsPlay/Pods-MarsPlay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarsPlay/Pods-MarsPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9341CC6F23C87C21000588BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341CC7B23C87C21000588BA /* ViewController.swift in Sources */,
+				9341CC9B23C886C9000588BA /* WebAPIManager.swift in Sources */,
+				9341CC8E23C87CE9000588BA /* DashboardVC.swift in Sources */,
+				9341CC7723C87C21000588BA /* AppDelegate.swift in Sources */,
+				9314576223C97FD10078C5F7 /* DataBase.swift in Sources */,
+				9341CC9023C88467000588BA /* DashboardVCCollectionCell.swift in Sources */,
+				9341CC9223C885E1000588BA /* CollectionViewCellExt.swift in Sources */,
+				9314576023C97A1F0078C5F7 /* DeatilsViewVC.swift in Sources */,
+				9341CC8123C87C21000588BA /* MarsPlay.xcdatamodeld in Sources */,
+				9341CC9C23C886C9000588BA /* ContentModel.swift in Sources */,
+				9341CC7923C87C21000588BA /* SceneDelegate.swift in Sources */,
+				9341CC9D23C886C9000588BA /* WSContentList.swift in Sources */,
+				9341CC9A23C886C9000588BA /* WSRequestManager.swift in Sources */,
+				9341CC9F23C889E5000588BA /* AuthInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9341CC7C23C87C21000588BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9341CC7D23C87C21000588BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9341CC8423C87C25000588BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9341CC8523C87C25000588BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9341CC8823C87C25000588BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9341CC8923C87C25000588BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9341CC8B23C87C25000588BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832A863B1449A69A8D7DE6ED /* Pods-MarsPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764Y542YJW;
+				INFOPLIST_FILE = MarsPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-MarsPlay.MarsPlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9341CC8C23C87C25000588BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271213176F307556503C73F3 /* Pods-MarsPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764Y542YJW;
+				INFOPLIST_FILE = MarsPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-MarsPlay.MarsPlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9341CC6E23C87C21000588BA /* Build configuration list for PBXProject "MarsPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9341CC8823C87C25000588BA /* Debug */,
+				9341CC8923C87C25000588BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9341CC8A23C87C25000588BA /* Build configuration list for PBXNativeTarget "MarsPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9341CC8B23C87C25000588BA /* Debug */,
+				9341CC8C23C87C25000588BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9341CC7F23C87C21000588BA /* MarsPlay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9341CC8023C87C21000588BA /* MarsPlay.xcdatamodel */,
+			);
+			currentVersion = 9341CC8023C87C21000588BA /* MarsPlay.xcdatamodel */;
+			path = MarsPlay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9341CC6B23C87C21000588BA /* Project object */;
+}

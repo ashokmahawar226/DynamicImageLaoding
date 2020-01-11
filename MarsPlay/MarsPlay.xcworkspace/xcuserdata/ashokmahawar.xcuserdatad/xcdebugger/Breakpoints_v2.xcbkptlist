@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A0E0837F-E796-4769-B71A-40F94A4CC980"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9B3619D-DFAA-4B14-AA81-B868E0F58DA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarsPlay/DeatilsViewVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72410421-7757-4188-8B13-F733105E90E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarsPlay/CollectionViewCellExt.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "imageLoad(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72410421-7757-4188-8B13-F733105E90E0 - 6ecb1f83ce880f85"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in MarsPlay):__C.UIImageView.imageLoad(Swift.String) -&gt; ()"
+                  moduleName = "MarsPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashokmahawar/Desktop/AshokWork/MarsPlay/MarsPlay/CollectionViewCellExt.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "441">
+               </Location>
+               <Location
+                  uuid = "72410421-7757-4188-8B13-F733105E90E0 - ead66a5ad4faaa1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in (extension in MarsPlay):__C.UIImageView.imageLoad(Swift.String) -&gt; ()"
+                  moduleName = "MarsPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashokmahawar/Desktop/AshokWork/MarsPlay/MarsPlay/CollectionViewCellExt.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
