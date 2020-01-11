@@ -1,1 +1,1 @@
-# DynamicImageLaoding
+# DynamicImageLoading
